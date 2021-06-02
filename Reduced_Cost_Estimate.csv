@@ -1,0 +1,18 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,0.9,10.80,USD,Hosted Zones (1)
+My Estimate,US East (N. Virginia),Web & Application Server,Application Load Balancer,0,44.53,534.36,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),Web Servers,Amazon EC2,0,1429.28,17151.36,USD,"Operating system (Linux), Quantity (4), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (50 GB), Instance type (m5.4xlarge), General Purpose SSD (gp3) - IOPS (3000), General Purpose SSD (gp3) - Throughput (125 MBps)"
+My Estimate,US East (N. Virginia),Application Servers,Amazon EC2,0,1429.28,17151.36,USD,"Operating system (Linux), Quantity (4), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (50 GB), Instance type (m5.4xlarge), General Purpose SSD (gp3) - IOPS (3000), General Purpose SSD (gp3) - Throughput (125 MBps)"
+My Estimate,US East (N. Virginia),,Amazon Aurora MySQL-Compatible,0,1704.3700000000001,20452.44,USD,"Change records per statement (0.38), Nodes (3), Instance Type (db.r5.2xlarge), Instance Family (Memory optimized), Pricing Model (Reserved), Lease Offering Term (1yr), Purchase Option (No Upfront), Storage amount (100 GB), Additional backup storage (1 TB)"
+My Estimate,US East (N. Virginia),Static assets,S3 Standard,0,0.68,8.16,USD,S3 Standard storage (10 GB per month)
+My Estimate,US East (N. Virginia),Static assets,Data Transfer,0,0,0.00,USD,
+My Estimate,US East (N. Virginia),,Amazon CloudWatch,0,115.45,1385.40,USD,"Number of Metrics (includes detailed and custom metrics) (100), Standard Logs: Data Ingested (100 GB), Number of Dashboards (10), Number of Standard Resolution Alarm Metrics (50)"
+My Estimate,US East (N. Virginia),,Amazon Simple Notification Service (SNS),0,21.1,253.20,USD,Requests (1 million per month)
+Global,All,Business support plan,AWS Support,0,474.56 ,5694.72,USD,"Supports 24/7 phone, chat, and email access to Cloud Support Engineers for unlimited contacts, with and a response time of less than 1 hour."
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
+
+I changed the pricing plan for RDS to use Reserved Instances and EC2 to use EC2 Instance Savings Plan.
